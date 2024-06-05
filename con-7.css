@@ -1,0 +1,58 @@
+.con-7{
+    height: max-content;
+    padding: 4rem ;
+    width: 100%;
+    display: grid;
+    color: white;
+    line-height: 2rem;
+    place-content: center;
+    place-items: center;
+    background: linear-gradient(180deg ,rgb(25, 25, 25),rgb(25, 25, 25),rgb(39,39,39),rgb(54,54,54));
+}
+.con-7 .articleSec{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 2rem;
+    /* border: solid 2px white; */
+}
+.con-7 .articleSec h1{
+    text-align: center;
+    margin: 3rem 2rem;
+    font-size: 4rem;
+    /* border: solid 2px white; */
+}
+.con-7 .articleSec p{
+    padding: 1rem auto ;
+    margin: 1rem;
+}
+.con-7 .articleSec code{
+    display: grid;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    place-content: start;
+}
+
+.con-7 .articleSec code span:last-child{
+    margin-top: 2rem;
+}
+
+.con-7 .articleSec .lastbtn{
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    background: none;
+    transition: all 0.1s linear;
+}
+.con-7 .articleSec .lastbtn:hover{
+    cursor: pointer;
+    color: lime;
+    margin: 1rem auto;
+    transform: scale(1.2);
+    pointer-events: all;
+}

@@ -1,0 +1,34 @@
+.con-3{
+    display: grid;
+    padding: 2rem ;
+    gap: 1rem;
+    background: hsla(0,100%,0%,0.9);
+    color: white;
+    place-items: center;
+    place-content: center;
+}
+.con-3 h1{
+    font-size: 4rem;
+    margin: 1rem auto;
+}
+.con-3 p{
+    line-height: 1.8rem;
+    margin: 1rem;
+}
+.con-3 .video{
+    margin: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    /* border: solid 2px white; */
+}
+.con-3 .video .img figcaption{
+    width: max-content;
+    display: grid;
+    place-items: center;
+    line-height: 2rem;
+    /* place-content: center; */
+    /* border:solid 2px white; */
+}

@@ -1,0 +1,36 @@
+
+.con-2 {
+    height: max-content;
+    padding: 4em;
+    width: 100%;
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .con-2 .card {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    text-align: center;
+    gap: 1rem;
+    line-height: 1.8em;
+    word-spacing: 0.2em;
+    justify-content: start;
+    align-items: center;
+    padding: 3rem 4rem ;
+    border-radius: 0.25em;
+    margin: auto 0.5rem;
+    transition: all 0.5s ease-in;
+    background-color: white;
+  }
+.card:hover{
+  cursor: pointer;
+  pointer-events: all;
+  background-color: #def;
+}
+

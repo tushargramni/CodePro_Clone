@@ -1,0 +1,27 @@
+.con-9{ 
+    height: 60vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: #003BB1; 
+}
+.con-9 h1{
+    word-spacing: 0rem;
+    padding: 1rem;
+    font-size: 2.25rem;
+}
+.con-9 p{
+    width: 60%;
+    padding: 1rem;
+    /* font-size: 1.5rem; */
+    /* border: solid 2px red; */
+    /* padding: 2rem; */
+    /* margin: 2rem auto; */
+}
+
+hr{
+    width: 100%;
+}
